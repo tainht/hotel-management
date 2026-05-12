@@ -1,0 +1,1 @@
+import express, { Router } from 'express';\n\nconst router: Router = express.Router();\n\n// Placeholder for guest routes\nrouter.get('/', (req, res) => {\n  res.json({ message: 'Get all guests' });\n});\n\nexport default router;\n
